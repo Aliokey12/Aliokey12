@@ -1,73 +1,73 @@
-Skip to content
-DEV Community
-Find related posts...
-Powered by  Algolia
-Log in
-Create account
+İçeriğe geç
+DEV Topluluğu
+İlgili yazıları bul...
+Algolia tarafından desteklenmektedir
+Giriş yapmak
+Hesap oluşturmak
 
 50
-Jump to Comments
+Yorumlara Git
 
 81
-Save
+Kaydetmek
 
-Boost
+Artırmak
 
-Cover image for How to enable GitHub Actions on your Profile README for a snake-eating contribution graph 🐍
-Michelle Duke
-Michelle Duke
-Posted on 28 Haz 2021 • Edited on 22 Şub 2024
+Profilinizde GitHub Eylemlerini nasıl etkinleştireceğinize dair kapak resmi README yılan yiyen katkı grafiği için 🐍
+Michelle Dük
+Michelle Dük
+Yayımlandı28 Haziran 2021 • Düzenlendi22 Şubat 2024
 
 
 291
 
 11
-How to enable GitHub Actions on your Profile README for a snake-eating contribution graph 🐍
+Profilinizde yılan yiyen katkı grafiği için GitHub Eylemlerini nasıl etkinleştirirsiniz?
 #
 github
 #
-markdown
+indirim
 #
-opensource
+açık kaynak
 #
-tutorial
-GitHub Like a Boss (23 Part Series)
+öğretici
+GitHub Like a Boss (23 Bölümlük Seri)
 1
-GitHub Desktop for better repo organisation
+Daha iyi depo organizasyonu için GitHub Desktop
 2
-GitHub README for easy to understand code
+Anlaşılması kolay kod için GitHub README
 ...
-19 more parts...
+19 bölüm daha...
 22
-How to automatically close your issues once you merge a PR
+Bir PR'yi birleştirdiğinizde sorunlarınızı otomatik olarak nasıl kapatırsınız?
 23
-How to get more suggestions from GitHub Copilot
-Lots of people have been talking about and sharing their GitHub Profile READMEs. It was a project we launched last year and developers are loving it. As this feature became more popular, more developers were building templates, plugins, and apps for you to use on your profile.
+GitHub Copilot'tan daha fazla öneri nasıl alınır
+Birçok kişi GitHub Profile README'leri hakkında konuşuyor ve paylaşıyor. Geçtiğimiz yıl başlattığımız bir projeydi ve geliştiriciler bayılıyor. Bu özellik daha popüler hale geldikçe, daha fazla geliştirici profilinizde kullanmanız için şablonlar, eklentiler ve uygulamalar oluşturuyordu.
 
-This post from Supritha caught my attention. I like the way they talk about various pieces of code to have on your GitHub Profile README.
+Supritha'nın bu yazısı dikkatimi çekti. GitHub Profile README'nizde bulunması gereken çeşitli kod parçalarından bahsetme şekillerini beğendim.
 
-supritha 
-How to have an awesome GitHub profile ?
-Supritha ・ Jun 8 '21
-#github #markdown #opensource #git
-One of the comments from Guillaume Falourd pointed to a really cool project from Platane.
+suprita 
+Harika bir GitHub profiline nasıl sahip olunur?
+Supritha ・ 8 Haz '21
+#github #markdown #açıkkaynak #git
+Guillaume Falourd'un yorumlarından biri Platane'in gerçekten harika bir projesine işaret ediyordu .
 
-GitHub logo Platane / snk
-🟩⬜ Generates a snake game from a github user contributions graph and output a screen capture as animated svg or gif
-snk
-GitHub Workflow Status GitHub release GitHub marketplace type definitions code style
+GitHub logosu Platan / snk
+🟩⬜ Github kullanıcı katkıları grafiğinden bir yılan oyunu oluşturur ve animasyonlu svg veya gif olarak bir ekran görüntüsü çıktısı verir
+sincap
+GitHub İş Akışı Durumu GitHub sürümü GitHub pazar yeri tür tanımları kod stili
 
-Generates a snake game from a github user contributions graph
+Github kullanıcı katkıları grafiğinden bir yılan oyunu oluşturur
 
-github contribution grid snake animation
-Pull a github user's contribution graph Make it a snake Game, generate a snake path where the cells get eaten in an orderly fashion.
+github katkı ızgarası yılan animasyonu
+Bir github kullanıcısının katkı grafiğini çekin ve bunu bir yılan oyununa dönüştürün, hücrelerin düzenli bir şekilde yenildiği bir yılan yolu oluşturun.
 
-Generate a gif or svg image.
+Bir gif veya svg resmi oluşturun.
 
-Available as github action. It can automatically generate a new image each day. Which makes for great github profile readme
+Github eylemi olarak kullanılabilir. Her gün otomatik olarak yeni bir resim üretebilir. Bu da harika bir github profili readme oluşturur.
 
-Usage
-github action
+Kullanım
+github eylemi
 
 - uses: Platane/snk@v3
   with
@@ -84,26 +84,26 @@ github action
     #  - color_dots:  Coma separated list of dots color.
     #                 The
 …
-View on GitHub
-It uses GitHub Actions to build and update a user's contribution graph, and then has a snake eat all your contributions. The output generates a gif file, that you can then show on your GitHub Profile README. I thought this was pretty cool, so I set about adding this to my profile.
+GitHub'da görüntüle
+Bir kullanıcının katkı grafiğini oluşturmak ve güncellemek için GitHub Actions'ı kullanır ve ardından bir yılanın tüm katkılarınızı yemesini sağlar. Çıktı, daha sonra GitHub Profile README'nizde gösterebileceğiniz bir gif dosyası oluşturur. Bunun oldukça havalı olduğunu düşündüm, bu yüzden bunu profilimde eklemeye koyuldum.
 
-Step 1. Setting up GitHub Actions
-The first thing you want to ensure before you start this project, is that you have GitHub Actions setup. Head to your Profile and ensure the "Actions" tab is available. Everyone should now have this feature.
+Adım 1. GitHub Actions'ı kurma
+Bu projeye başlamadan önce emin olmak isteyeceğiniz ilk şey, GitHub Actions'ın kurulu olmasıdır. Profilinize gidin ve "Actions" sekmesinin kullanılabilir olduğundan emin olun. Artık herkes bu özelliğe sahip olmalı.
 
-Actions Button
+Eylemler Düğmesi
 
-Next, head to Platane's Action (available on the Marketplace) and make a copy of the code. You'll need to add this snippet into your Actions file.
+Sonra, Platane's Action'a (Marketplace'te mevcuttur) gidin ve kodun bir kopyasını oluşturun. Bu parçacığı Actions dosyanıza eklemeniz gerekecektir.
 
-Step 2. Creating your GitHub Actions yaml file
-This is definitely the part where I got stuck. When looking at the code, I wasn't sure exactly where to add the lines of code mentioned on Marketplace.
+Adım 2. GitHub Actions yaml dosyanızı oluşturma
+Kesinlikle takıldığım kısım burasıydı. Koda bakarken Marketplace'te belirtilen kod satırlarını tam olarak nereye ekleyeceğimden emin değildim .
 
-After looking at the way Platane had their Actions file setup, I was able to generate the code (with a little help from Bdougie of course).
+Platane'in Actions dosyasının kurulumunu inceledikten sonra kodu üretebildim ( elbette Bdougie'nin de yardımıyla).
 
-I've added the full code snippet below and added plenty of comments to (hopefully make it easy to understand).
+Aşağıya tam kod parçasını ekledim ve bolca yorum ekledim (umarım anlaşılması kolay olur).
 
-You can copy this code straight into a blank *.yml file. Make sure you create a new *.yml file under the following directory:
+Bu kodu doğrudan boş bir *.yml dosyasına kopyalayabilirsiniz. Aşağıdaki dizin altında yeni bir *.yml dosyası oluşturduğunuzdan emin olun:
 
-YOUR_GITHUB_USERNAME --> .github --> workflows --> FILE_NAME.yml
+YOUR_GITHUB_USERNAME --> .github --> iş akışları --> FILE_NAME.yml
 
 
 # GitHub Action for generating a contribution graph with a snake eating your contributions.
@@ -137,8 +137,7 @@ jobs:
       - uses: Platane/snk@master
         id: snake-gif
         with:
-          github_user_name: Aliokey12
-
+          github_user_name: mishmanners
           # these next 2 lines generate the files on a branch called "output". This keeps the main branch from cluttering up.
           gif_out_path: dist/github-contribution-grid-snake.gif
           svg_out_path: dist/github-contribution-grid-snake.svg
@@ -161,61 +160,63 @@ jobs:
           build_dir: dist
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-Step 3. Running GitHub Actions
-Once you've added the code above and committed it, head to your Actions tab. Under "Workflows", you should see the "Generate Snake" Action you created above.
+Adım 3. GitHub Actions'ı Çalıştırma
+Yukarıdaki kodu ekledikten ve commit ettikten sonra Actions sekmenize gidin. "Workflows" altında, yukarıda oluşturduğunuz "Generate Snake" Action'ını görmelisiniz.
 
-Workflow
+İş akışı
 
-Click "Run Workflow" and watch your workflow run. You can even expand your workflow and see what's happening in real time.
+"İş Akışını Çalıştır"a tıklayın ve iş akışınızın çalışmasını izleyin. Hatta iş akışınızı genişletebilir ve gerçek zamanlı olarak neler olduğunu görebilirsiniz.
 
-Running Actions
+Çalışan Eylemler
 
-Once your workflow has finished running, you should have received a green ✅ "build" checkmark. If so, this means your Action is working nicely. If not, you'll have to go through the code and see where the errors are. The "build" status should give you some indication of where your errors lie. You can also compare it with the yaml file on my GitHub Profile README.
+İş akışınız çalışmayı bitirdiğinde, yeşil bir ✅ "oluştur" onay işareti almış olmalısınız. Eğer öyleyse, bu Action'ınızın düzgün çalıştığı anlamına gelir. Eğer değilse, kodu incelemeniz ve hataların nerede olduğunu görmeniz gerekir. "Oluşturma" durumu, hatalarınızın nerede olduğuna dair size bir fikir vermelidir. Ayrıca bunu GitHub Profile README'deki yaml dosyasıyla da karşılaştırabilirsiniz .
 
-Build green
+Yeşil inşa et
 
-If you have the green "build" ✅ then you should be good to go. Head back to your repo's "Code" directory, and change your branch to "output". Here you'll find the two versions of your contribution graph with the snake eating it: a *.gif and a *.svg. The good thing about these files is the file is rewritten over itself every time the Action runs. Thus, your contribution graph will always be up to date.
+Yeşil "build" ✅'niz varsa, o zaman hazır olmalısınız. Deponuzun "Code" dizinine geri dönün ve dalınızı "output" olarak değiştirin. Burada, yılanın onu yediği katkı grafiğinizin iki versiyonunu bulacaksınız: bir *.gif ve bir *.svg. Bu dosyaların iyi yanı, Action her çalıştığında dosyanın kendi üzerine yeniden yazılmasıdır. Bu nedenle, katkı grafiğiniz her zaman güncel olacaktır.
 
-CodeOutput
+KodÇıktısı
 
-Step 4. Adding a contribution-eating snake to your profile
-Now the final set is to add this to your profile. Grab the file location of your *.gif. It should be something like:
+Adım 4. Profilinize katkı yiyen bir yılan ekleme
+Şimdi son set bunu profilinize eklemektir. *.gif dosyanızın konumunu alın. Şuna benzer bir şey olmalı:
 
 https://github.com/YOUR_USERNAME/YOUR_USERNAME/blob/output/github-contribution-grid-snake.gif
 
-Add this to your profile by copying the file location onto a new line in your markdown file:
+Bunu profilinize eklemek için dosya konumunu markdown dosyanızda yeni bir satıra kopyalayın:
 
 ![snake gif](https://github.com/YOUR_USERNAME/YOUR_USERNAME/blob/output/github-contribution-grid-snake.gif)
 
-Now you should have a really cool looking snake eating your contributions!
+Şimdi katkılarınızı yiyen gerçekten harika görünümlü bir yılanınız olmalı!
 
-GIFSnakeEating
 
-Hopefully this guide was helpful for you and gives you a good base to start building and adding more Actions on your profile. What have you been adding to your GitHub Profile README? Other there other cool Actions I should be looking at?
+GIF
+YılanYemek
 
-GitHub Like a Boss (23 Part Series)
+Umarım bu rehber sizin için faydalı olmuştur ve profilinize daha fazla Action inşa etmeye ve eklemeye başlamanız için size iyi bir temel sağlar. GitHub Profile README'nize ne ekliyorsunuz? Başka bakmam gereken başka harika Action'lar var mı?
+
+GitHub Like a Boss (23 Bölümlük Seri)
 1
-GitHub Desktop for better repo organisation
+Daha iyi depo organizasyonu için GitHub Desktop
 2
-GitHub README for easy to understand code
+Anlaşılması kolay kod için GitHub README
 ...
-19 more parts...
+19 bölüm daha...
 22
-How to automatically close your issues once you merge a PR
+Bir PR'yi birleştirdiğinizde sorunlarınızı otomatik olarak nasıl kapatırsınız?
 23
-How to get more suggestions from GitHub Copilot
-Top comments (50)
-Subscribe
-pic
-Add to the discussion
+GitHub Copilot'tan daha fazla öneri nasıl alınır
+En iyi yorumlar (50)
+Abone
+resim
+Tartışmaya ekle
  
  
-platane profile image
-Platane
+platan profil resmi
+Platan
 •
-21 Ağu 24 • Edited on 21 Ağu
+21 Ağu 24 • Düzenlendi21 Ağu
 
-Hi, First of all thanks for the precise tutorial!
+Merhaba, Öncelikle bu detaylı anlatım için teşekkürler!
 
 There were a few changes in the action (mostly to adapt to github api), I had to change some parameters and bump the version.
 
@@ -238,7 +239,7 @@ Like
 Reply
  
  
-arorasir profile image
+arorasir profil resmi
 Mohit Arora
 •
 24 Eyl 24
@@ -253,7 +254,7 @@ Like
 Reply
  
  
-mishmanners profile image
+mishmanners profil resmi
 Michelle Duke 
 •
 25 Eyl 24
@@ -268,7 +269,7 @@ Like
 Reply
  
  
-1seamy profile image
+1seamy profil resmi
 seamy
 •
 8 Nis 24 • Edited on 9 Nis
@@ -297,7 +298,7 @@ Like
 Reply
  
  
-kushaltanna24 profile image
+kushaltanna24 profil resmi
 KushalTanna24
 •
 3 Haz 22
@@ -312,7 +313,7 @@ Like
 Reply
  
  
-msoftware profile image
+msoftware profil resmi
 Michael jentsch
 •
 9 Tem 21
@@ -328,7 +329,7 @@ Like
 Reply
  
  
-gustavohgmartins profile image
+gustavohgmartins profil resmi
 Gustavo Martins
 •
 3 Eyl 21
@@ -341,7 +342,7 @@ Like
 Reply
  
  
-mishmanners profile image
+mishmanners profil resmi
 Michelle Duke 
 •
 3 Eyl 21
@@ -354,7 +355,7 @@ I didn't change the background colour. It's a .png/.svg image, meaning the backg
 Like
 Thread
  
-gustavohgmartins profile image
+gustavohgmartins profil resmi
 Gustavo Martins
 •
 3 Eyl 21
@@ -367,7 +368,7 @@ Thank you! actually I was using the .gif version, so I switched to the .svg one 
 Like
 Thread
  
-mishmanners profile image
+mishmanners profil resmi
 Michelle Duke 
 •
 3 Eyl 21
@@ -382,7 +383,7 @@ Like
 Reply
  
  
-baayah profile image
+baayah profil resmi
 BAayah
 •
 11 Oca 24
@@ -396,7 +397,7 @@ Like
 Reply
  
  
-jakon62508112 profile image
+jakon62508112 profil resmi
 Jakob
 •
 20 Oca 23 • Edited on 20 Oca
@@ -412,7 +413,7 @@ Like
 Reply
  
  
-shuvajitgeek profile image
+shuvajitgeek profil resmi
 Shuvajit
 •
 1 Şub 23
@@ -426,7 +427,7 @@ Like
 Reply
  
  
-l3on06 profile image
+l3on06 profil resmi
 L3on06
 •
 17 Şub 23
@@ -441,7 +442,7 @@ Like
 Reply
  
  
-unknow0074 profile image
+unknow0074 profil resmi
 Unknown
 •
 27 May 24
@@ -454,7 +455,7 @@ Like
 Reply
  
  
-hoangtien_2k3 profile image
+hoangtien_2k3 profil resmi
 Hoàng Anh Tiến
 •
 29 Oca 23 • Edited on 29 Oca
@@ -473,7 +474,7 @@ Like
 Reply
  
  
-bpolaswar profile image
+bpolaswar profil resmi
 Bhumesh Polaswar
 •
 17 Eki 21
@@ -489,7 +490,7 @@ Like
 Reply
  
  
-ariafatah profile image
+ariafatah profil resmi
 Ariafatah
 •
 18 Eyl 23
@@ -506,7 +507,7 @@ Like
 Reply
  
  
-ariafatah profile image
+ariafatah profil resmi
 Ariafatah
 •
 18 Eyl 23
@@ -572,7 +573,7 @@ jobs:
       - uses: Platane/snk@master
         id: snake-gif
         with:
-          github_user_name: Aliokey12
+          github_user_name: mishmanners
           # these next 2 lines generate the files on a branch called "output". This keeps the main branch from cluttering up.
           gif_out_path: dist/github-contribution-grid-snake.gif
           svg_out_path: dist/github-contribution-grid-snake.svg
@@ -618,4 +619,4 @@ Privacy Policy
 Terms of use
 Built on Forem — the open source software that powers DEV and other inclusive communities.
 
-Made with love and Ruby on Rails. DEV Community © 2016 - 2025.
+Made with love and Ruby on Rails. DEV Topluluğu © 2016 - 2025.
