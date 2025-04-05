@@ -1,4 +1,4 @@
- [![MasterHead](http://res.cloudinary.com/upwork-cloud/image/upload/c_scale,w_1000/v1708541275/catalog/1555997542956724224/p9wp3l8imfsvram59pry.webp)
+ [![MasterHead](http://res.cloudinary.com/upwork-cloud/image/upload/c_scale,w_1000,h_500,/v1708541275/catalog/1555997542956724224/p9wp3l8imfsvram59pry.webp)
 <h1 align="center">Hi 👋, I'm Ali Esmerer</h1>
 <h3 align="center">Front End Developer From Turkey</h3>
 
