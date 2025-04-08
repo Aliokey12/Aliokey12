@@ -27,5 +27,3 @@
 
 <p><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=aliokey12&" alt="aliokey12" /></p>
 
-<p><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=aliokey12&" alt="aliokey12" /></p>
-
