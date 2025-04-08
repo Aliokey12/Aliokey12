@@ -26,3 +26,6 @@
 <p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=aliokey12&show_icons=true&locale=en" alt="aliokey12" /></p>
 
 <p><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=aliokey12&" alt="aliokey12" /></p>
+
+<p><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=aliokey12&" alt="aliokey12" /></p>
+
